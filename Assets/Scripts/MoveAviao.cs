@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveAviao : MonoBehaviour
 {
     public GameObject aviao;
-    public float velocidade = 0.05f;
+    public float velocidade = 1.15f;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,16 +15,7 @@ public class MoveAviao : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // //código para mudar de direção
-       
-        // if(gameObject.transform.position.y>3){
-        //   velocidade*= -1;
-        // }else if(gameObject.transform.position.y< -3)
-        // {
-        //     velocidade*= -1;
-        // }
-        // transform.Translate(new Vector2(0,velocidade*Time.deltaTime));
-
+        
         if(Input.GetKey(KeyCode.UpArrow)){
             transform.Translate(new Vector3(0,0.2f,0));
         }
