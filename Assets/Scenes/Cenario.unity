@@ -204,7 +204,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &703011814
+--- !u!1 &526825906
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -212,22 +212,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 703011816}
-  - component: {fileID: 703011815}
-  m_Layer: 0
-  m_Name: plane_2_red
+  - component: {fileID: 526825908}
+  - component: {fileID: 526825907}
+  m_Layer: 2
+  m_Name: grass-toon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!212 &703011815
+--- !u!212 &526825907
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703011814}
+  m_GameObject: {fileID: 526825906}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -260,30 +260,30 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cb7de88c076ea3d488c1f9b43c76cdcf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e7ebb384a3b7b22478b5d77cf3e9c6c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 10.13, y: 5.57}
+  m_Size: {x: 45, y: 12.348633}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &703011816
+--- !u!4 &526825908
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703011814}
+  m_GameObject: {fileID: 526825906}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.77, y: 1.12, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: -0.04, y: -4.13, z: -1}
+  m_LocalScale: {x: 0.9838822, y: 0.38356557, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &816665407
 GameObject:
@@ -371,13 +371,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816665407}
   m_LocalRotation: {x: 0.2944973, y: -0.36733648, z: -0.21755263, w: 0.85498893}
-  m_LocalPosition: {x: 20.62, y: 4.74, z: -8.04}
+  m_LocalPosition: {x: 20.62, y: 4.74, z: -118.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 20.106, y: -53.644, z: -38.796}
---- !u!1 &1266147215
+--- !u!1 &1775806025
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -385,22 +385,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1266147217}
-  - component: {fileID: 1266147216}
+  - component: {fileID: 1775806027}
+  - component: {fileID: 1775806026}
+  - component: {fileID: 1775806028}
   m_Layer: 0
-  m_Name: grass-toon
+  m_Name: plane_2_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!212 &1266147216
+--- !u!212 &1775806026
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266147215}
+  m_GameObject: {fileID: 1775806025}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -433,31 +434,45 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 646d1cc610b7c4d4f9bd875aa4469d11, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e98f98f1d262c864982c20db1c8af40b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 45, y: 12.348633}
+  m_Size: {x: 10.13, y: 5.57}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &1266147217
+--- !u!4 &1775806027
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266147215}
+  m_GameObject: {fileID: 1775806025}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.148, y: -2.683, z: 0}
-  m_LocalScale: {x: 0.9760204, y: 0.3446077, z: 1}
+  m_LocalPosition: {x: -15.12, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1775806028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775806025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b873f0b4c61ed244aa5d334d431c885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aviao: {fileID: 1775806025}
+  velocidade: 5.05
 --- !u!1 &1808839179
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,7 +525,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 310d24e65f1a8fe4cbbe19780e49badd, type: 2}
+  - {fileID: 2100000, guid: 67ea12e030ccc534988ed24c8e952a14, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -551,7 +566,7 @@ Transform:
   m_LocalScale: {x: 43.341057, y: 9.505305, z: 6.7134204}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1808839184
 MonoBehaviour:
@@ -562,7 +577,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1808839179}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71c3612b9933e4148b2f6649263baa43, type: 3}
+  m_Script: {fileID: 11500000, guid: 030536d5e75e5174ca63a17ab1fd1778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 0.075
@@ -593,10 +608,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1955631027}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07de4be6aa83059478dccf6dcd6b0b6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d5234aa2942104468456cd237b4c81b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moeda: {fileID: 2556008050286609993, guid: 30d94f5e6bde5494e848d5b0b2201847, type: 3}
+  moeda: {fileID: 2556008050286609993, guid: bddf5991343f16948be62688d634ee84, type: 3}
 --- !u!4 &1955631029
 Transform:
   m_ObjectHideFlags: 0
@@ -609,5 +624,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
