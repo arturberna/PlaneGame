@@ -12,7 +12,7 @@ public class MoveAviao : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    // Método que é chamado quando a tela é atualizada
     void Update()
     {
         
